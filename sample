@@ -1,0 +1,16 @@
+import java.util.*;
+class dog{
+    void barking(){
+        System.out.println("dog is barking");
+    }
+}
+public class singleinheritance extends dog{
+    void natanimal(){
+        System.out.println("puli");
+    }
+    public static void main(String args[]){
+        singleinheritance d=new singleinheritance();
+        d.barking();
+        d.natanimal();
+    }
+}
